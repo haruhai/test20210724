@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.first-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background: url(../img/firstview.jpg) no-repeat center;
+}
+.first-view-title {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+.about {
+  text-align: center;
+}
+.about-title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 70px;
+}
+.about-text {
+  margin-top: 30px;
+}
+.about-text p {
+  padding-top: 20px;
+}
+.about1 {
+  font-weight: bold;
+}
+wrapper {
+  width: 1000px;
+}
+.item img {
+  width: 300px;
+}
+.item {
+  width: 310px;
+  padding-left: 20px;
+}
+.blog-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.blog-title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 70px;
+}
+.contact-title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 70px;
+}
+form {
+  width: 780px;
+  margin: 20px auto;
+}
+.form-item {
+  width: 780px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  float: left;
+}
+.form-item label {
+  font-weight: bold;
+  margin-left: 100px;
+}
+.form-item input {
+  width: 450px;
+}
+.form-item textarea {
+  width: 450px;
+}
+.form-item select {
+  width: 150px;
+}
+.btn {
+  text-align: center;
+}
+.btn input {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.delete {
+  text-decoration: none;
+  border: none;
+  background-color: #e8e8e8;
+  width: 150px;
+  height: 30px;
+}
+.send {
+  border: none;
+  background-color: #2cc7ad;
+  color: white;
+  width: 150px;
+  height: 30px;
+}
